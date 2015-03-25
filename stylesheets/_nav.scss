@@ -1,0 +1,21 @@
+$nav-background-color: #000000;
+$default-p-size:15pt;
+$default-color:yellow;
+$default-font-fam: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+nav {
+  background-color:$nav-background-color;
+  padding:10px;
+  height:45px;
+  ul {
+    li {
+      display:inline-block;
+      margin:0 10px 0;
+      font-size:$default-p-size;
+      color:$default-color;
+      font-weight:bold;
+      font-family: $default-font-fam;
+    }
+  }
+}

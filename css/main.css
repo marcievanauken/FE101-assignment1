@@ -1,0 +1,38 @@
+nav {
+  background-color: #000000;
+  padding: 10px;
+  height: 45px; }
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px 0;
+    font-size: 15pt;
+    color: yellow;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+html {
+  background-color: #c2c2c2; }
+
+h2 {
+  color: yellow;
+  font-weight: 700;
+  font-size: 25pt;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 20px;
+  padding: 20px; }
+
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: yellow;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 20px;
+  padding: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px; }
+
+p {
+  font-size: 10pt;
+  margin: 20px;
+  padding: 20px; }
+
+/*# sourceMappingURL=main.css.map */

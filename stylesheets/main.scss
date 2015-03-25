@@ -1,0 +1,43 @@
+@import 'nav';
+
+// Variables
+$default-p-size:10pt;
+$default-color:yellow;
+$default-background-color:#c2c2c2;
+$h2-font-size: 25pt;
+$letter-spacing: 2px;
+$default-font-fam: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+html {
+  background-color:$default-background-color;
+}
+
+// h2 stuff goes below
+h2 {
+	color:$default-color;
+	font-weight:700;
+	font-size:$h2-font-size;
+	font-family: $default-font-fam;
+	margin:20px;
+	padding:20px;
+}
+
+@mixin subheadingBg($opacity) {
+	background-color: rgba(255, 0, 0, $opacity);
+}
+
+h4 {
+	font-family: $default-font-fam;
+	color:$default-color;
+	@include subheadingBg (.5);
+	margin:20px;
+	padding:20px;
+	font-weight:lighter;
+	letter-spacing:$letter-spacing;
+}
+
+p {
+	font-size:$default-p-size;
+	margin:20px;
+	padding:20px;
+}
